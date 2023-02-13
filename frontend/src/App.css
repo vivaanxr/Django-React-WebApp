@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  height: 2cm;
+  width: 2cm;
+  padding:1cm;
+  border-radius: 50%;
+}
+
+.add-button{
+  width: 1.5cm;
+  height: 1.5cm;
+  padding:0.3cm;
+  padding-left: 3cm;
+}
+
+.subheading-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subheading{
+  line-height: 1cm;
+}
+
+.Box{
+  background-color: white;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.member-data-container{
+  padding:1cm
+}
+
+.head-container{
+  background-color: rgb(226, 226, 226);
+  margin: 1mm;
+  width: 100%;
+  height: 10%;
+}
+
+.head{
+  text-align: center;
+  padding: 1cm;
+  line-height: 0.3cm;
+}
+
+.subtitle{
+  color: gray;
+}
+
+.main-container{
+  background-color: rgb(226, 226, 226);
+  min-height: 90vh;
+  margin: 1mm;
+  margin-top: 0mm;
+  padding-top: 0.01mm;
+  width: 100%;
+}
+
+.secondary-container{
+  background-color: white;
+  margin: 1mm;
+  width: 97%;
+  height:100vh;
+  flex:1;
+  align-self: center;
+  padding: 0.3cm;
+
+}
+
+.team-list-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.team-list-margin{
+  background-color: lightgray;
+  height: 0.1mm;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  margin: 2mm;
+  width:7cm;
+  height:0.7cm;
+}
+
+.submit-button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1cm;
+}
+
+.submit-button{
+  margin: 1cm;
+  width: 2cm;
+  height:1cm;
+  align-self: center;
+  background-color: #597bee;
+  color:white;
+}
+
+.sub-sub-heading{
+  padding-left: 3mm;
+}
+
